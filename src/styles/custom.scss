@@ -13,3 +13,23 @@ body {
   height: 100%;
   object-fit: cover;
 }
+
+.imagen-fondo {
+  background-image: url("fondo.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+footer {
+  @media() {
+  }
+
+  @media (min-width: 768px) {
+    margin-top: 500px;
+  }
+
+  @media (min-width: 992px) {
+    margin-top: 300px;
+  }
+}
