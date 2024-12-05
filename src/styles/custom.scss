@@ -22,7 +22,12 @@ body {
 }
 
 footer {
-  @media() {
+  @media (min-width: 0px) {
+    margin-top: 1000px;
+  }
+
+  @media (min-width: 576px) {
+    margin-top: 900px;
   }
 
   @media (min-width: 768px) {
